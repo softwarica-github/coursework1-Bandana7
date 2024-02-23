@@ -1,0 +1,53 @@
+# Penetration
+
+Checking the system security through the company contract and finding the vulnerability, malware or exploits. Physical penetration are those who check the physical security around the system and server 
+
+# Box
+
+grey box= they have little information 
+
+ black box= they have no information and need to find themselves
+
+white box= they all the data and information 
+
+# Testing method
+
+internal= they stay in same network and check the information 
+
+external= they access through the different ip and gain the access of the another system 
+
+ 
+
+# Pre-engagement
+
+NDA(Non-disclosure agreement) which cannot be shared to anyone expect the two contract parties. Unilateral means one side party. Bilateral means the two contract parties. Multilateral means third party involvement.
+
+
+Enumeration principle
+active info gathering: getting info through same platform or network
+passive info gathering: getting info through other platforms or publicly available info
+
+bruteforce is last resort
+
+shodan: internet facing sites
+
+enumeration methodolody
+intfrastructure based enumeration
+host based enumeration
+os based enumeration
+
+patch level is needed in windows for knowing about the updated patch till date (patch ma pani bugs hunxa)
+
+cat /etc/vsftpd.conf | grep -v "#" (# vaneko yo bahek sab dekha ho)
+cat /etc/ftpusers  to check who are the users and who can login)
+
+
+s: set uid bit(executable file ma set xa vane its executable, bash -p hanyo vane root pauxa)
+t: sticky bit
+
+why should reverse shell be sen to oprt 53? cause it is dns
+
+
+
+
+

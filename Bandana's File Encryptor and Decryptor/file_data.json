@@ -1,0 +1,18 @@
+{
+    "nishu": {
+        "encrypt": [
+            {
+                "original": "C:/Users/LEGION/OneDrive - Softwarica College/skills/image.webp",
+                "processed": "encrypted_data\\nishu_image.webp.enc",
+                "timestamp": "2024-02-23 12:39:02"
+            }
+        ],
+        "decrypt": [
+            {
+                "original": "C:/Users/LEGION/OneDrive - Softwarica College/Algorithm and programming 2/Bandana's File Encryptor and Decryptor/encrypted_data/nishu_image.webp.enc",
+                "processed": "decrypted_data\\nishu_nishu_image.webp",
+                "timestamp": "2024-02-23 12:39:23"
+            }
+        ]
+    }
+}
